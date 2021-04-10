@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0px;
+  height: 100%;
+}
+body {
+  display: block;
+  position: relative;
+}
+
+.sidebar {
+  margin-top: 0px;
+  margin-left: 20px;
+  border-right: 1px solid rgb(37, 37, 37);
+  position: absolute;
+  height: 100%;
+  width: 25%;
+}
+
+.sidebar .icon {
+  padding-right: 10px;
+  font-size: 25px;
+}
+.sidebar ul li {
+  list-style: none;
+  font-size: 1.5em;
+  color: rgb(88, 88, 255);
+  font-weight: bold;
+}
+
+.sidebar-items {
+  padding: 5%;
+  width: max-content;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.sidebar-items:hover{
+
+border-radius: 0 40% ;
+
+  background-color: burlywood;
+}
