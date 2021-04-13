@@ -7,18 +7,18 @@ html {
   margin: 0px;
   height: 100%;
 }
+
 body {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar {
   margin-top: 0px;
   margin-left: 20px;
   border-right: 1px solid rgb(37, 37, 37);
-  position: absolute;
   height: 100%;
-  width: 25%;
+  width: 22%;
 }
 
 .sidebar .icon {
@@ -38,9 +38,58 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
-.sidebar-items:hover{
-
-border-radius: 0 40% ;
+.sidebar-items:hover {
+  border-radius: 0 40%;
 
   background-color: burlywood;
+}
+
+.main-content {
+  border-right: 1px solid black;
+  width: 44%;
+}
+.main-content .home {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid black;
+}
+.main-content .home h1 {
+  display: inline-block;
+}
+.main-content .home .icon {
+  float: right;
+  padding-top: 20px;
+  font-size: 25px;
+  color: blue;
+  padding-right: 5px;
+}
+
+.main-content .writting-div {
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid black;
+}
+
+.main-content .blank-space {
+  widows: 100%;
+  height: 20px;
+  background-color: burlywood;
+}
+
+.main-content .time-line {
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.section-three {
+  width: 34%;
+}
+
+.section-three .search {
+  width: 70%;
+  height: 50px;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-top: 5px;
+  border: 1px solid black;
 }
